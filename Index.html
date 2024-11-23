@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortune Generator!!!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    #output {
+      margin-top: 20px;
+      padding: 20px;
+      font-size: 1.5em;
+      transition: all 0.3s ease;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interactive Random Generator</h1>
+  <p>Enter your name and discover something random!</p>
+  <input type="text" id="nameInput" placeholder="Your Name">
+  <br>
+  <button onclick="generate()">Generate</button>
+  <button onclick="restyle()">Restyle</button>
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
